@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Digital Clock </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light">
+    <div id="clock" class="light">
+    <div class="display">
+        <div class="weekdays"></div>
+        <div class="ampm"></div>
+        <div class="alarm"></div>
+        <div class="digits"></div>
+    </div>
+    <div id="alarmNotice"></div>
+    <div class="wrapper">
+        <div class="button-section">
+                <div class="numbers">
+                    <input type="time" id="setTime" name="time" value="12:00" autofocus> 
+                </div>
+                <button  id='setAlarm' onClick='alarmSet()'>Set Alarm</button>
+                <button  id='stopAlarm' onClick='alarmStop()'>Turn off Alarm</button>
+        </div>
+
+    </div>
+
+
+
+    </div>
+
+<script src="file.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+
+</body>
+</html>
